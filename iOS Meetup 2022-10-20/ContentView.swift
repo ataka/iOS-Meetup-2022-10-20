@@ -18,7 +18,11 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(items) { item in
-                    Text(item.title)
+                    NavigationLink {
+                        SwiftUIView()
+                    } label: {
+                        Text(item.title)
+                    }
                 }
             }
             .navigationTitle("iOS Meetup")
