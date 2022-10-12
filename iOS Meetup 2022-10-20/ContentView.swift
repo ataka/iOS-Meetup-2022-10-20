@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    let items: [SampleItem] = [
+        SampleItem(id: 0, title: "SwiftUI"),
+        SampleItem(id: 1, title: "Storyboard (not localized)"),
+        SampleItem(id: 2, title: "Storyboard (localized)"),
+    ]
+
     var body: some View {
         NavigationView {
             List {
-                Text("SwiftUI")
-                Text("Storyboard (not localized)")
-                Text("Storyboard (localized)")
+                ForEach(items) { item in
+                    Text(item.title)
+                }
             }
             .navigationTitle("iOS Meetup")
         }

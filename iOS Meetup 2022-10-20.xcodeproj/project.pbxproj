@@ -11,6 +11,7 @@
 		672A494128F6A70700516FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A494028F6A70700516FAD /* ContentView.swift */; };
 		672A494328F6A71000516FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672A494228F6A71000516FAD /* Assets.xcassets */; };
 		672A494628F6A71000516FAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672A494528F6A71000516FAD /* Preview Assets.xcassets */; };
+		6738FEEA28F6B13D00F65CBC /* SampleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738FEE928F6B13D00F65CBC /* SampleItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		672A494028F6A70700516FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		672A494228F6A71000516FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		672A494528F6A71000516FAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6738FEE928F6B13D00F65CBC /* SampleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				672A493E28F6A70700516FAD /* iOS_Meetup_2022_10_20App.swift */,
 				672A494028F6A70700516FAD /* ContentView.swift */,
+				6738FEE928F6B13D00F65CBC /* SampleItem.swift */,
 				672A494228F6A71000516FAD /* Assets.xcassets */,
 				672A494428F6A71000516FAD /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6738FEEA28F6B13D00F65CBC /* SampleItem.swift in Sources */,
 				672A494128F6A70700516FAD /* ContentView.swift in Sources */,
 				672A493F28F6A70700516FAD /* iOS_Meetup_2022_10_20App.swift in Sources */,
 			);
