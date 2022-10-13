@@ -16,6 +16,7 @@
 		6738FEF028F6C07200F65CBC /* Storyboard1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738FEEF28F6C07200F65CBC /* Storyboard1View.swift */; };
 		6738FEF228F6C0B500F65CBC /* Storyboard1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6738FEF128F6C0B500F65CBC /* Storyboard1.storyboard */; };
 		6738FEF628F6C27A00F65CBC /* Storyboard1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738FEF528F6C27A00F65CBC /* Storyboard1ViewController.swift */; };
+		6738FEF928F7BD0A00F65CBC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6738FEFB28F7BD0A00F65CBC /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		6738FEEF28F6C07200F65CBC /* Storyboard1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard1View.swift; sourceTree = "<group>"; };
 		6738FEF128F6C0B500F65CBC /* Storyboard1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard1.storyboard; sourceTree = "<group>"; };
 		6738FEF528F6C27A00F65CBC /* Storyboard1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard1ViewController.swift; sourceTree = "<group>"; };
+		6738FEFA28F7BD0A00F65CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6738FEFC28F7BD0D00F65CBC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 				6738FEEE28F6BDF900F65CBC /* Storyboard1 */,
 				672A494228F6A71000516FAD /* Assets.xcassets */,
 				672A494428F6A71000516FAD /* Preview Content */,
+				6738FEFB28F7BD0A00F65CBC /* Localizable.strings */,
 			);
 			path = "iOS Meetup 2022-10-20";
 			sourceTree = "<group>";
@@ -140,6 +144,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 672A493228F6A70700516FAD;
 			productRefGroup = 672A493C28F6A70700516FAD /* Products */;
@@ -157,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6738FEF228F6C0B500F65CBC /* Storyboard1.storyboard in Resources */,
+				6738FEF928F7BD0A00F65CBC /* Localizable.strings in Resources */,
 				672A494628F6A71000516FAD /* Preview Assets.xcassets in Resources */,
 				672A494328F6A71000516FAD /* Assets.xcassets in Resources */,
 			);
@@ -179,6 +185,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6738FEFB28F7BD0A00F65CBC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6738FEFA28F7BD0A00F65CBC /* en */,
+				6738FEFC28F7BD0D00F65CBC /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		672A494728F6A71000516FAD /* Debug */ = {

@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  iOS Meetup 2022-10-20
+
+  Created by 安宅正之 on 2022/10/13.
+  
+*/
+
+"hello_world" = "Hello, World!";
