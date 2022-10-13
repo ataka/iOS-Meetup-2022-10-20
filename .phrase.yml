@@ -1,0 +1,12 @@
+phrase:
+  project_id: 7e298527564b0d917e2ed416d6748a55
+  push:
+    sources:
+    - file: ./<locale_code>.lproj/Localizable.strings
+      params:
+        file_format: strings
+  pull:
+    targets:
+    - file: ./<locale_code>.lproj/Localizable.strings
+      params:
+        file_format: strings
