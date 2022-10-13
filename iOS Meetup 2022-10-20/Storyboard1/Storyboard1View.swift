@@ -11,6 +11,7 @@ import UIKit
 struct Storyboard1View: View {
     var body: some View {
         Storyboard1ViewControllerWrapper()
+            .navigationTitle("Storyboard (not l10n)")
     }
 }
 

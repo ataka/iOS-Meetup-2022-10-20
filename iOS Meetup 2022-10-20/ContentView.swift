@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     let items: [SampleItem] = [
         SampleItem(id: 0, title: "SwiftUI"),
-        SampleItem(id: 1, title: "Storyboard (not localized)"),
-        SampleItem(id: 2, title: "Storyboard (localized)"),
+        SampleItem(id: 1, title: "Storyboard (not l10n)"),
+        SampleItem(id: 2, title: "Storyboard (l10n)"),
     ]
 
     var body: some View {

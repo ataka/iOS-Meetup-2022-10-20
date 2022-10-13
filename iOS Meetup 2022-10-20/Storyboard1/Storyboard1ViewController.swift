@@ -16,9 +16,4 @@ final class Storyboard1ViewController: UIViewController {
     init?(coder: NSCoder, dependency: Int) {
         super.init(coder: coder)
     }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = .red
-    }
 }
