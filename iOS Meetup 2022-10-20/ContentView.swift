@@ -19,7 +19,11 @@ struct ContentView: View {
             List {
                 ForEach(items) { item in
                     NavigationLink {
-                        SwiftUIView()
+                        if item.id == 0 {
+                            SwiftUIView()
+                        } else {
+                            Storyboard1View()
+                        }
                     } label: {
                         Text(item.title)
                     }
