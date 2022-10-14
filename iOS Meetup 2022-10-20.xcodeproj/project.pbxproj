@@ -20,6 +20,9 @@
 		67674F4128F93A12000F6821 /* Storyboard2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67674F4028F93A12000F6821 /* Storyboard2View.swift */; };
 		67674F4328F93AC3000F6821 /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67674F4228F93AC3000F6821 /* Storyboard2.storyboard */; };
 		67674F4528F93AE4000F6821 /* Storyboard2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67674F4428F93AE4000F6821 /* Storyboard2ViewController.swift */; };
+		67674F4828F94661000F6821 /* Storyboard3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67674F4728F94661000F6821 /* Storyboard3View.swift */; };
+		67674F4A28F94681000F6821 /* Storyboard3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67674F4928F94681000F6821 /* Storyboard3ViewController.swift */; };
+		67674F4C28F94691000F6821 /* Storyboard3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67674F4B28F94691000F6821 /* Storyboard3.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		67674F4028F93A12000F6821 /* Storyboard2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard2View.swift; sourceTree = "<group>"; };
 		67674F4228F93AC3000F6821 /* Storyboard2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard2.storyboard; sourceTree = "<group>"; };
 		67674F4428F93AE4000F6821 /* Storyboard2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard2ViewController.swift; sourceTree = "<group>"; };
+		67674F4728F94661000F6821 /* Storyboard3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard3View.swift; sourceTree = "<group>"; };
+		67674F4928F94681000F6821 /* Storyboard3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard3ViewController.swift; sourceTree = "<group>"; };
+		67674F4B28F94691000F6821 /* Storyboard3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard3.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,7 @@
 				6738FEEB28F6BB0D00F65CBC /* SwiftUIView */,
 				6738FEEE28F6BDF900F65CBC /* Storyboard1 */,
 				67674F3F28F939DA000F6821 /* Storyboard2 */,
+				67674F4628F943F8000F6821 /* Storyboard3 */,
 				672A494228F6A71000516FAD /* Assets.xcassets */,
 				672A494428F6A71000516FAD /* Preview Content */,
 				6738FEFB28F7BD0A00F65CBC /* Localizable.strings */,
@@ -117,6 +124,16 @@
 				67674F4228F93AC3000F6821 /* Storyboard2.storyboard */,
 			);
 			path = Storyboard2;
+			sourceTree = "<group>";
+		};
+		67674F4628F943F8000F6821 /* Storyboard3 */ = {
+			isa = PBXGroup;
+			children = (
+				67674F4728F94661000F6821 /* Storyboard3View.swift */,
+				67674F4928F94681000F6821 /* Storyboard3ViewController.swift */,
+				67674F4B28F94691000F6821 /* Storyboard3.storyboard */,
+			);
+			path = Storyboard3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6738FEF228F6C0B500F65CBC /* Storyboard1.storyboard in Resources */,
+				67674F4C28F94691000F6821 /* Storyboard3.storyboard in Resources */,
 				6738FEF928F7BD0A00F65CBC /* Localizable.strings in Resources */,
 				672A494628F6A71000516FAD /* Preview Assets.xcassets in Resources */,
 				672A494328F6A71000516FAD /* Assets.xcassets in Resources */,
@@ -198,7 +216,9 @@
 				67674F4128F93A12000F6821 /* Storyboard2View.swift in Sources */,
 				6738FEED28F6BB2E00F65CBC /* SwiftUIView.swift in Sources */,
 				67674F4528F93AE4000F6821 /* Storyboard2ViewController.swift in Sources */,
+				67674F4828F94661000F6821 /* Storyboard3View.swift in Sources */,
 				6738FEF028F6C07200F65CBC /* Storyboard1View.swift in Sources */,
+				67674F4A28F94681000F6821 /* Storyboard3ViewController.swift in Sources */,
 				672A493F28F6A70700516FAD /* iOS_Meetup_2022_10_20App.swift in Sources */,
 				6738FEF628F6C27A00F65CBC /* Storyboard1ViewController.swift in Sources */,
 			);

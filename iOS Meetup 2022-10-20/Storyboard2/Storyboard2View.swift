@@ -29,6 +29,6 @@ struct Storyboard2ViewControllerWrapper: UIViewControllerRepresentable {
 
 struct Storyboard2View_Previews: PreviewProvider {
     static var previews: some View {
-        Storyboard1View()
+        Storyboard2View()
     }
 }
