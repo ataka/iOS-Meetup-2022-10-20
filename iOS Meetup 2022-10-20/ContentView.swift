@@ -19,10 +19,12 @@ struct ContentView: View {
             List {
                 ForEach(items) { item in
                     NavigationLink {
-                        if item.id == 0 {
-                            SwiftUIView()
-                        } else {
-                            Storyboard1View()
+                        switch item.id {
+                        case 0: SwiftUIView()
+                        case 1: Storyboard1View()
+                        case 2: Storyboard2View()
+                        default:
+                            fatalError()
                         }
                     } label: {
                         Text(item.title)
