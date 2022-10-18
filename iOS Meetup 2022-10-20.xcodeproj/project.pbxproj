@@ -25,6 +25,7 @@
 		67674F4D28F96784000F6821 /* Storyboard3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67674F4F28F96784000F6821 /* Storyboard3.storyboard */; };
 		67F78D9528FE7DDA0000487B /* BranchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F78D9428FE7DDA0000487B /* BranchView.swift */; };
 		67F78D9728FE81E20000487B /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F78D9628FE81E20000487B /* Plan.swift */; };
+		67F78D9928FE8D990000487B /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F78D9828FE8D990000487B /* PlanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		67674F5328F967B9000F6821 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Storyboard3.strings; sourceTree = "<group>"; };
 		67F78D9428FE7DDA0000487B /* BranchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchView.swift; sourceTree = "<group>"; };
 		67F78D9628FE81E20000487B /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		67F78D9828FE8D990000487B /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				67F78D9428FE7DDA0000487B /* BranchView.swift */,
+				67F78D9828FE8D990000487B /* PlanView.swift */,
 				67F78D9628FE81E20000487B /* Plan.swift */,
 			);
 			path = Branch;
@@ -230,6 +233,7 @@
 				6738FEEA28F6B13D00F65CBC /* SampleItem.swift in Sources */,
 				672A494128F6A70700516FAD /* ContentView.swift in Sources */,
 				67674F4128F93A12000F6821 /* Storyboard2View.swift in Sources */,
+				67F78D9928FE8D990000487B /* PlanView.swift in Sources */,
 				6738FEED28F6BB2E00F65CBC /* SwiftUIView.swift in Sources */,
 				67674F4528F93AE4000F6821 /* Storyboard2ViewController.swift in Sources */,
 				67674F4828F94661000F6821 /* Storyboard3View.swift in Sources */,

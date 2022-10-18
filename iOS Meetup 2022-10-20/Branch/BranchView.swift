@@ -20,11 +20,7 @@ struct BranchView: View {
         List {
             Section("Upgrade") {
                 ForEach(plans) { plan in
-                    HStack {
-                        Text(plan.title)
-                        Spacer()
-                        Text(plan.priceValue)
-                    }
+                    PlanView(plan: plan)
                 }
             }
         }
