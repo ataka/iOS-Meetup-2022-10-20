@@ -12,7 +12,8 @@ struct ContentView: View {
         SampleItem(id: 0, title: "SwiftUI"),
         SampleItem(id: 1, title: "Storyboard (raw key)"),
         SampleItem(id: 2, title: "Storyboard (code)"),
-        SampleItem(id: 3, title: "Storyboard (storyboard)")
+        SampleItem(id: 3, title: "Storyboard (storyboard)"),
+        SampleItem(id: 4, title: "Branch"),
     ]
 
     var body: some View {
@@ -25,6 +26,7 @@ struct ContentView: View {
                         case 1: Storyboard1View(item: item)
                         case 2: Storyboard2View(item: item)
                         case 3: Storyboard3View(item: item)
+                        case 4: BranchView(item: item)
                         default:
                             fatalError()
                         }
