@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Plan: Identifiable {
     let id = UUID()
-    let title: String
-    let priceValue: String
+    let title: LocalizedStringKey
+    let priceValue: LocalizedStringKey
 }

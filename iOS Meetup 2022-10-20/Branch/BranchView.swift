@@ -10,15 +10,15 @@ import SwiftUI
 struct BranchView: View {
     let item: SampleItem
     let plans = [
-        Plan(title: "Basic Plan",
-             priceValue: "300 yen"),
-        Plan(title: "Pro Plan",
-             priceValue: "1,000 yen"),
+        Plan(title: "plan_basic",
+             priceValue: "plan_basic_price"),
+        Plan(title: "plan_pro",
+             priceValue: "plan_pro_price"),
     ]
 
     var body: some View {
         List {
-            Section("Upgrade") {
+            Section("upgrade") {
                 ForEach(plans) { plan in
                     PlanView(plan: plan)
                 }
