@@ -11,6 +11,11 @@ import UIKit
 struct Storyboard3View: View {
     let item: SampleItem
 
+    init(item: SampleItem) {
+        self.item = item
+        UILabel.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).adjustsFontSizeToFitWidth = true
+    }
+
     var body: some View {
         Storyboard3ViewControllerWrapper()
             .navigationTitle(item.title)
