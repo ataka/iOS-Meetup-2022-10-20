@@ -9,9 +9,11 @@ import SwiftUI
 import UIKit
 
 struct Storyboard1View: View {
+    let item: SampleItem
+
     var body: some View {
         Storyboard1ViewControllerWrapper()
-            .navigationTitle("Storyboard (not l10n)")
+            .navigationTitle(item.title)
     }
 }
 
@@ -29,6 +31,6 @@ struct Storyboard1ViewControllerWrapper: UIViewControllerRepresentable {
 
 struct Storyboard1View_Previews: PreviewProvider {
     static var previews: some View {
-        Storyboard1View()
+        Storyboard1View(item: SampleItem.makeDummy())
     }
 }

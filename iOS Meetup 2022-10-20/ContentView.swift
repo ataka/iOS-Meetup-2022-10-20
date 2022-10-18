@@ -10,9 +10,9 @@ import SwiftUI
 struct ContentView: View {
     let items: [SampleItem] = [
         SampleItem(id: 0, title: "SwiftUI"),
-        SampleItem(id: 1, title: "Storyboard (not l10n)"),
-        SampleItem(id: 2, title: "Storyboard (l10n)"),
-        SampleItem(id: 3, title: "Storyboard (strings)")
+        SampleItem(id: 1, title: "Storyboard (raw key)"),
+        SampleItem(id: 2, title: "Storyboard (code)"),
+        SampleItem(id: 3, title: "Storyboard (storyboard)")
     ]
 
     var body: some View {
@@ -21,10 +21,10 @@ struct ContentView: View {
                 ForEach(items) { item in
                     NavigationLink {
                         switch item.id {
-                        case 0: SwiftUIView()
-                        case 1: Storyboard1View()
-                        case 2: Storyboard2View()
-                        case 3: Storyboard3View()
+                        case 0: SwiftUIView(item: item)
+                        case 1: Storyboard1View(item: item)
+                        case 2: Storyboard2View(item: item)
+                        case 3: Storyboard3View(item: item)
                         default:
                             fatalError()
                         }

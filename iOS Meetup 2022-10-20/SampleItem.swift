@@ -10,4 +10,8 @@ import Foundation
 struct SampleItem: Identifiable {
     let id: Int
     let title: String
+
+    static func makeDummy() -> Self {
+        SampleItem(id: 0, title: "Dummy Title")
+    }
 }
